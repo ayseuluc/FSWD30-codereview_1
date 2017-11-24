@@ -1,0 +1,72 @@
+
+
+////////////*navigation-bar*//////////
+
+.wrapper {
+	width: 960px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+
+
+#navmenu { 
+	background-color: gray;
+	margin: 20px 0 20px;
+}
+
+
+#menu a {
+	padding-left: 8em;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 600;
+	color: white;
+
+}
+
+#menu a:hover {
+		border-top: solid withe 5px;
+
+}
+
+//////////////////* Figure *///////////////
+		
+figure,
+figcaption {
+	margin: 0;
+	padding: 0;
+}
+
+figure.einzel {
+	position: relative;
+	display: inline-block;
+	width: 32.9%;
+}
+
+figure img {
+	width: 100%;
+	height: 300px
+	display: block;
+}
+
+figcaption {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 3em;
+	color: white;
+	font-family: sans-serif;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.gesamt {
+	position: relative;
+	color: black;
+	background: white;
+}
+
+
+
+
